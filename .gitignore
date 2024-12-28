@@ -1,0 +1,7 @@
+# Ignore all files starting with "text8"
+text8*
+
+# Ignore all files ending with ".pdf"
+*.pdf
+
+download_corpus.py
