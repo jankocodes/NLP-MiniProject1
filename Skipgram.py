@@ -3,7 +3,7 @@ import torch.nn as nn
 
 class Skipgram(nn.Module):
     def __init__(self, vocab_size, embedding_dim):
-        super(Skipgram, self).__init__()
+        super().__init__()
         
         self.vocab_size= vocab_size
         self.embedding_dim= embedding_dim
@@ -26,7 +26,7 @@ class Skipgram(nn.Module):
         negatives_embedding= self.output_embedding(negatives) #(batch_size x num_neg_samples x embedding_dim)
         
         positive_score= torch.sum(center_embedding*context_embedding, dim=1) #(batch_size)
-        
+
         #(batch_size x num_neg_samples x embedding_dim) * (batch_size, embedding_dim, 1)
         negative_score= torch.bmm(negatives_embedding, center_embedding.unsqueeze(2)).squeeze(2) #(batch_size, num_neg_samples)
         

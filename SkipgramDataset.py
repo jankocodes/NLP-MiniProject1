@@ -3,7 +3,6 @@ from torch.utils.data import Dataset
 
 class SkipgramDataset(Dataset):
     def __init__(self, pairs):
-        super().__init__()
         self.pairs= pairs
         
     def __len__(self):
