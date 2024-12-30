@@ -11,3 +11,6 @@ download_corpus.py
 __pycache__/
 *.pyc
 *.pyo
+
+#Ignore model weights
+model.pth
