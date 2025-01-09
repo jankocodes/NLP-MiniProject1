@@ -1,0 +1,252 @@
+[
+    {
+        "context_size": 4,
+        "embedding_dim": 300,
+        "batch_size": 256,
+        "learning_rate": 0.01,
+        "num_negatives": 20,
+        "epochs": 10,
+        "train_loss": 4.1307,
+        "val_loss": 4.1896
+    },
+    {
+        "context_size": 6,
+        "embedding_dim": 400,
+        "batch_size": 256,
+        "learning_rate": 0.01,
+        "num_negatives": 20,
+        "epochs": 10,
+        "train_loss": 4.198147038347485,
+        "val_loss": 4.255624404648685
+    },
+    {
+        "context_size": 4,
+        "embedding_dim": 300,
+        "batch_size": 256,
+        "learning_rate": 0.001,
+        "num_negatives": 15,
+        "epochs": 10,
+        "train_loss": 3.4160326698941175,
+        "val_loss": 3.788237520495949
+    },
+    {
+        "context_size": 6,
+        "embedding_dim": 400,
+        "batch_size": 256,
+        "learning_rate": 0.001,
+        "num_negatives": 10,
+        "epochs": 10,
+        "train_loss": 3.0443325867289435,
+        "val_loss": 3.401357876370325
+    },
+    {
+        "context_size": 6,
+        "embedding_dim": 400,
+        "batch_size": 512,
+        "learning_rate": 0.01,
+        "num_negatives": 10,
+        "epochs": 5,
+        "train_loss": 3.4046987597581606,
+        "val_loss": 3.414793773573272
+    },
+    {
+        "context_size": 4,
+        "embedding_dim": 300,
+        "batch_size": 512,
+        "learning_rate": 0.001,
+        "num_negatives": 10,
+        "epochs": 10,
+        "train_loss": 2.921520613023717,
+        "val_loss": 3.3252002596855164
+    },
+    {
+        "context_size": 6,
+        "embedding_dim": 300,
+        "batch_size": 512,
+        "learning_rate": 0.01,
+        "num_negatives": 15,
+        "epochs": 5,
+        "train_loss": 3.825105191768911,
+        "val_loss": 3.8439747861453464
+    },
+    {
+        "context_size": 6,
+        "embedding_dim": 300,
+        "batch_size": 512,
+        "learning_rate": 0.001,
+        "num_negatives": 15,
+        "epochs": 10,
+        "train_loss": 3.342946300734432,
+        "val_loss": 3.8057078998916003
+    },
+    {
+        "context_size": 4,
+        "embedding_dim": 400,
+        "batch_size": 512,
+        "learning_rate": 0.001,
+        "num_negatives": 10,
+        "epochs": 5,
+        "train_loss": 3.1749166339737562,
+        "val_loss": 3.5847769160659944
+    },
+    {
+        "context_size": 6,
+        "embedding_dim": 300,
+        "batch_size": 256,
+        "learning_rate": 0.01,
+        "num_negatives": 10,
+        "epochs": 5,
+        "train_loss": 3.4387589444886295,
+        "val_loss": 3.4467230007776517
+    },
+    {
+        "context_size": 4,
+        "embedding_dim": 400,
+        "batch_size": 512,
+        "learning_rate": 0.01,
+        "num_negatives": 15,
+        "epochs": 10,
+        "train_loss": 3.7287759802582863,
+        "val_loss": 3.7894611005880394
+    },
+    {
+        "context_size": 4,
+        "embedding_dim": 300,
+        "batch_size": 512,
+        "learning_rate": 0.01,
+        "num_negatives": 20,
+        "epochs": 5,
+        "train_loss": 4.092844131592327,
+        "val_loss": 4.140631421488159
+    },
+    {
+        "context_size": 4,
+        "embedding_dim": 400,
+        "batch_size": 512,
+        "learning_rate": 0.001,
+        "num_negatives": 20,
+        "epochs": 5,
+        "train_loss": 3.8475116054623877,
+        "val_loss": 4.354288035509538
+    },
+    {
+        "context_size": 4,
+        "embedding_dim": 400,
+        "batch_size": 256,
+        "learning_rate": 0.01,
+        "num_negatives": 15,
+        "epochs": 10,
+        "train_loss": 3.8596300391885063,
+        "val_loss": 3.8965831528539243
+    },
+    {
+        "context_size": 4,
+        "embedding_dim": 400,
+        "batch_size": 256,
+        "learning_rate": 0.01,
+        "num_negatives": 20,
+        "epochs": 10,
+        "train_loss": 4.168218987522407,
+        "val_loss": 4.229345621660237
+    },
+    {
+        "context_size": 6,
+        "embedding_dim": 300,
+        "batch_size": 256,
+        "learning_rate": 0.01,
+        "num_negatives": 10,
+        "epochs": 5,
+        "train_loss": 3.434405592860351,
+        "val_loss": 3.446777360213687
+    },
+    {
+        "context_size": 6,
+        "embedding_dim": 400,
+        "batch_size": 256,
+        "learning_rate": 0.01,
+        "num_negatives": 20,
+        "epochs": 5,
+        "train_loss": 4.246172827326261,
+        "val_loss": 4.276506566635483
+    },
+    {
+        "context_size": 6,
+        "embedding_dim": 400,
+        "batch_size": 512,
+        "learning_rate": 0.01,
+        "num_negatives": 20,
+        "epochs": 5,
+        "train_loss": 4.14867016249278,
+        "val_loss": 4.1983915847174975
+    },
+    {
+        "context_size": 4,
+        "embedding_dim": 400,
+        "batch_size": 512,
+        "learning_rate": 0.01,
+        "num_negatives": 10,
+        "epochs": 5,
+        "train_loss": 3.3680518441097185,
+        "val_loss": 3.3780932876528524
+    },
+    {
+        "context_size": 4,
+        "embedding_dim": 500,
+        "batch_size": 256,
+        "learning_rate": 0.001,
+        "num_negatives": 15,
+        "epochs": 5,
+        "train_loss": 3.3334144865151014,
+        "val_loss": 3.911564589156519
+    },
+    {
+        "context_size": 4,
+        "embedding_dim": 500,
+        "batch_size": 512,
+        "learning_rate": 0.001,
+        "num_negatives": 10,
+        "epochs": 5,
+        "train_loss": 3.171127332491001,
+        "val_loss": 3.710206052478479
+    },
+    {
+        "context_size": 4,
+        "embedding_dim": 500,
+        "batch_size": 512,
+        "learning_rate": 0.001,
+        "num_negatives": 15,
+        "epochs": 5,
+        "train_loss": 3.551500401806099,
+        "val_loss": 4.140366645491853
+    },
+    {
+        "context_size": 4,
+        "embedding_dim": 300,
+        "batch_size": 512,
+        "learning_rate": 0.001,
+        "num_negatives": 15,
+        "epochs": 5,
+        "train_loss": 3.5822064773485796,
+        "val_loss": 3.919870066399477
+    },
+    {
+        "context_size": 6,
+        "embedding_dim": 300,
+        "batch_size": 256,
+        "learning_rate": 0.01,
+        "num_negatives": 20,
+        "epochs": 5,
+        "train_loss": 4.234005109577591,
+        "val_loss": 4.255284277679365
+    },
+    {
+        "context_size": 6,
+        "embedding_dim": 500,
+        "batch_size": 512,
+        "learning_rate": 0.01,
+        "num_negatives": 20,
+        "epochs": 5,
+        "train_loss": 4.172320058321383,
+        "val_loss": 4.223243990722968
+    }
+]
