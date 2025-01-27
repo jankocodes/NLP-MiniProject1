@@ -248,5 +248,15 @@
         "epochs": 5,
         "train_loss": 4.172320058321383,
         "val_loss": 4.223243990722968
+    },
+    {
+        "context_size": 6,
+        "embedding_dim": 400,
+        "batch_size": 256,
+        "learning_rate": 0.001,
+        "num_negatives": 15,
+        "epochs": 5,
+        "train_loss": 3.4319011375087656,
+        "val_loss": 3.8983740885849194
     }
 ]
